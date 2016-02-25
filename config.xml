@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.biconsulting.avant" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.biconsulting.taxispasajero" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Avant</name>
     <description>
-        Gestión del servicio de Taxis
+        Solicitud de taxis desde móvil.
     </description>
     <author email="eliut@outlook.com" href="http://biconsulting.mx/">
         BicConsulting
     </author>
-    <author email="eliut@outlook.com" href="http://islascruz.com.mx/">
+    <author email="eliut@outlook.com" href="https://islascruz.com.mx/">
         Eliut Islas
     </author>
     <content src="index.html"/>
