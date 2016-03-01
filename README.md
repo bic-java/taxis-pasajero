@@ -7,26 +7,32 @@ Aplicación para pasajeros del sistema de gestión de taxis.
   ```
   $ npm install -g cordova ionic
   ```
+  
 3. clonar el repositorio
   ```
   $ git clone git@github.com:bic-java/taxis-pasajero.git
   ```
+  
 4. navegar hasta la carpeta del proyecto clonado
   ```
   $ cd taxis-pasajero
   ```
+  
 5. actualizar lib
   ```
   $ ionic lib update
   ```
+  
 6. Instalar Crosswalk
   ```
   $ ionic browser add crosswalk
   ```
+  
 7. Añadir los plugins faltantes
   ```
   $ ionic plugin add PLUGIN_REQUERIDO
   ```
+  
   reemplazar PLUGIN_REQUERIDO en el comando anterior por cada uno de los siguientes.
 
   - cordova-plugin-console
@@ -41,6 +47,7 @@ Aplicación para pasajeros del sistema de gestión de taxis.
   ```
   $ ionic serve
   ```
+  
 9. para ejecutar en un emulador o dispositivo conectado, primero añadir la plataforma destino, por ejemplo android
   ```
   $ ionic platform add android
