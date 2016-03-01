@@ -21,7 +21,7 @@ Aplicación para pasajeros del sistema de gestión de taxis.
   ```
 6. Instalar Crosswalk
   ```
-  ionic browser add crosswalk
+  $ ionic browser add crosswalk
   ```
 7. Añadir los plugins faltantes
   ```
