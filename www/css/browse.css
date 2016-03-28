@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/03/2016, 05:18:31 PM
+    Author     : Pozos
+*/
+
+#mapa{
+    background-image: url(../img/ionic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+}

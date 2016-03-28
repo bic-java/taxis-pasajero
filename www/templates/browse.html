@@ -1,5 +1,15 @@
+<link href="css/browse.css" rel="stylesheet">
+
 <ion-view view-title="Browse">
   <ion-content>
-    <h1>Browse</h1>
+    <div id="mapa" style="height: 100%;" ng-init="initMap()" ng-controller="BrowseCtrl">
+        <div id="searchBox">
+            <input type="text"  size="30" ng-model="address" />
+            <button id="searchBtn" ng-click="searchAddress(address)">Search</button>
+        </div>
+        <i class="icon ion-pinpoint" style="position: absolute; right: 15px; bottom: 15px; font-size: 50px;" ng-click="getMyLocation()"> </i>
+        <i class="icon ion-play" style="position: absolute; left: 15px; bottom: 15px; font-size: 50px;" ng-click="setStartPosition()"> </i>
+        <i class="icon ion-stop" style="position: absolute; left: 80px; bottom: 15px; font-size: 50px;" ng-click="setFinalPosition()"> </i>
+    </div>
   </ion-content>
 </ion-view>
