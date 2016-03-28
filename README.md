@@ -54,3 +54,7 @@ Aplicación para pasajeros del sistema de gestión de taxis.
   $ ionic run android
   ```
   
+10. Instalación de plugin google maps
+  ```
+  $> ionic plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyCM5GOTQ8a2Pa488mahNfzQaAFjY4YW50E" --variable API_KEY_FOR_IOS="AIzaSyBEQpvYYDpXb5f5E3Yw2w8Sq2fgeJfOXkI"
+  ```
